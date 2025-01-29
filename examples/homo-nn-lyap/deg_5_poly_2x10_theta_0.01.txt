@@ -1,0 +1,86 @@
+Skipping solving Lyapunov equation: A is not Hurwitz.
+System dynamics: x' =  Matrix([[-0.0199996666683333*x1*(x1**4 + 2*x1**2*x2**2 - x2**4) - 1.99990000083333*x2*(-x1**4 + 2*x1**2*x2**2 + x2**4)], [1.99990000083333*x1*(x1**4 + 2*x1**2*x2**2 - x2**4) - 0.0199996666683333*x2*(-x1**4 + 2*x1**2*x2**2 + x2**4)]])
+Eigenvalues of linearization:  [0. 0.]
+The linearization is inconclusive for stability analysis.
+__________________________________________________
+Learning neural Lyapunov function:
+Training model...
+Epoch 1 completed. Average epoch loss: 0.00029788. Max epoch loss: 0.032072                                                             
+Epoch 2 completed. Average epoch loss: 0.00010036. Max epoch loss: 0.00017285                                                           
+Epoch 3 completed. Average epoch loss: 0.00010006. Max epoch loss: 0.00019965                                                           
+Epoch 4 completed. Average epoch loss: 9.9146e-05. Max epoch loss: 0.000185                                                             
+Epoch 5 completed. Average epoch loss: 9.872e-05. Max epoch loss: 0.00016051                                                            
+Epoch 6 completed. Average epoch loss: 9.8663e-05. Max epoch loss: 0.00016558                                                           
+Epoch 7 completed. Average epoch loss: 9.8366e-05. Max epoch loss: 0.00018277                                                           
+Epoch 8 completed. Average epoch loss: 9.8207e-05. Max epoch loss: 0.00018742                                                           
+Epoch 9 completed. Average epoch loss: 9.7617e-05. Max epoch loss: 0.00016929                                                           
+Epoch 10 completed. Average epoch loss: 9.7437e-05. Max epoch loss: 0.00017884                                                          
+Epoch 11 completed. Average epoch loss: 9.7555e-05. Max epoch loss: 0.00017336                                                          
+Epoch 12 completed. Average epoch loss: 9.6768e-05. Max epoch loss: 0.00017123                                                          
+Epoch 13 completed. Average epoch loss: 9.701e-05. Max epoch loss: 0.00018304                                                           
+Epoch 14 completed. Average epoch loss: 9.6537e-05. Max epoch loss: 0.00016823                                                          
+Epoch 15 completed. Average epoch loss: 9.6353e-05. Max epoch loss: 0.00017311                                                          
+Epoch 16 completed. Average epoch loss: 9.5827e-05. Max epoch loss: 0.0001689                                                           
+Epoch 17 completed. Average epoch loss: 9.5793e-05. Max epoch loss: 0.00017602                                                          
+Epoch 18 completed. Average epoch loss: 9.5735e-05. Max epoch loss: 0.00017764                                                          
+Epoch 19 completed. Average epoch loss: 9.5658e-05. Max epoch loss: 0.00018253                                                          
+Epoch 20 completed. Average epoch loss: 9.5451e-05. Max epoch loss: 0.00017178                                                          
+Epoch 21 completed. Average epoch loss: 9.562e-05. Max epoch loss: 0.00017168                                                           
+Epoch 22 completed. Average epoch loss: 9.556e-05. Max epoch loss: 0.00018213                                                           
+Epoch 23 completed. Average epoch loss: 9.5413e-05. Max epoch loss: 0.00018037                                                          
+Epoch 24 completed. Average epoch loss: 9.5197e-05. Max epoch loss: 0.00016656                                                          
+Epoch 25 completed. Average epoch loss: 9.5044e-05. Max epoch loss: 0.00020919                                                          
+Epoch 26 completed. Average epoch loss: 9.4648e-05. Max epoch loss: 0.0001948                                                           
+Epoch 27 completed. Average epoch loss: 9.4602e-05. Max epoch loss: 0.00015938                                                          
+Epoch 28 completed. Average epoch loss: 9.4359e-05. Max epoch loss: 0.00017674                                                          
+Epoch 29 completed. Average epoch loss: 9.4149e-05. Max epoch loss: 0.0001804                                                           
+Epoch 30 completed. Average epoch loss: 9.3719e-05. Max epoch loss: 0.00016184                                                          
+Epoch 31 completed. Average epoch loss: 9.333e-05. Max epoch loss: 0.00016592                                                           
+Epoch 32 completed. Average epoch loss: 9.2778e-05. Max epoch loss: 0.00016314                                                          
+Epoch 33 completed. Average epoch loss: 9.1978e-05. Max epoch loss: 0.00017658                                                          
+Epoch 34 completed. Average epoch loss: 9.0897e-05. Max epoch loss: 0.00015669                                                          
+Epoch 35 completed. Average epoch loss: 8.9076e-05. Max epoch loss: 0.00015415                                                          
+Epoch 36 completed. Average epoch loss: 8.5632e-05. Max epoch loss: 0.00016058                                                          
+Epoch 37 completed. Average epoch loss: 7.7189e-05. Max epoch loss: 0.00014749                                                          
+Epoch 38 completed. Average epoch loss: 5.997e-05. Max epoch loss: 0.00011404                                                           
+Epoch 39 completed. Average epoch loss: 4.2749e-05. Max epoch loss: 0.00010793                                                          
+Epoch 40 completed. Average epoch loss: 2.7178e-05. Max epoch loss: 8.2158e-05                                                          
+Epoch 41 completed. Average epoch loss: 1.8197e-05. Max epoch loss: 6.8314e-05                                                          
+Epoch 42 completed. Average epoch loss: 1.3763e-05. Max epoch loss: 6.6113e-05                                                          
+Epoch 43 completed. Average epoch loss: 1.1121e-05. Max epoch loss: 6.5671e-05                                                          
+Epoch 44 completed. Average epoch loss: 9.3068e-06. Max epoch loss: 4.4992e-05                                                          
+Epoch 45 completed. Average epoch loss: 8.0239e-06. Max epoch loss: 5.4265e-05                                                          
+Epoch 46 completed. Average epoch loss: 7.1867e-06. Max epoch loss: 5.4089e-05                                                          
+Epoch 47 completed. Average epoch loss: 6.2708e-06. Max epoch loss: 9.427e-05                                                           
+Epoch 48 completed. Average epoch loss: 5.7164e-06. Max epoch loss: 5.9676e-05                                                          
+Epoch 49 completed. Average epoch loss: 5.1524e-06. Max epoch loss: 5.1025e-05                                                          
+Epoch 50 completed. Average epoch loss: 4.6499e-06. Max epoch loss: 5.0605e-05                                                          
+Epoch 51 completed. Average epoch loss: 4.2052e-06. Max epoch loss: 8.5374e-05                                                          
+Epoch 52 completed. Average epoch loss: 3.7849e-06. Max epoch loss: 4.2969e-05                                                          
+Epoch 53 completed. Average epoch loss: 3.6634e-06. Max epoch loss: 5.5955e-05                                                          
+Epoch 54 completed. Average epoch loss: 3.4428e-06. Max epoch loss: 6.4222e-05                                                          
+Epoch 55 completed. Average epoch loss: 3.0617e-06. Max epoch loss: 9.3215e-05                                                          
+Epoch 56 completed. Average epoch loss: 2.9393e-06. Max epoch loss: 6.6454e-05                                                          
+Epoch 57 completed. Average epoch loss: 2.8359e-06. Max epoch loss: 0.0001009                                                           
+Epoch 58 completed. Average epoch loss: 2.6453e-06. Max epoch loss: 8.1697e-05                                                          
+Epoch 59 completed. Average epoch loss: 2.4772e-06. Max epoch loss: 0.00010599                                                          
+Epoch 60 completed. Average epoch loss: 2.3015e-06. Max epoch loss: 0.00012068                                                          
+Epoch 61 completed. Average epoch loss: 2.2751e-06. Max epoch loss: 0.0001234                                                           
+Epoch 62 completed. Average epoch loss: 2.1197e-06. Max epoch loss: 9.3528e-05                                                          
+Epoch 63 completed. Average epoch loss: 2.1037e-06. Max epoch loss: 0.00011602                                                          
+Epoch 64 completed. Average epoch loss: 1.7993e-06. Max epoch loss: 6.969e-05                                                           
+Epoch 65 completed. Average epoch loss: 1.885e-06. Max epoch loss: 8.602e-05                                                            
+Epoch 66 completed. Average epoch loss: 1.7361e-06. Max epoch loss: 7.3801e-05                                                          
+Epoch 67 completed. Average epoch loss: 1.5547e-06. Max epoch loss: 7.3244e-05                                                          
+Epoch 68 completed. Average epoch loss: 1.6471e-06. Max epoch loss: 6.2745e-05                                                          
+Epoch 69 completed. Average epoch loss: 1.4778e-06. Max epoch loss: 0.00013317                                                          
+Epoch 70 completed. Average epoch loss: 1.5472e-06. Max epoch loss: 0.00015891                                                          
+Epoch 71 completed. Average epoch loss: 1.2911e-06. Max epoch loss: 0.0001126                                                           
+Epoch 72 completed. Average epoch loss: 1.6478e-06. Max epoch loss: 0.00017502                                                          
+Epoch 73 completed. Average epoch loss: 2.3632e-07. Max epoch loss: 0.00011783                                                          
+Epoch 74 completed. Average epoch loss: 0. Max epoch loss: 0                                                                            
+Total training time: 1273.77 seconds.
+Model trained: results/deg_5_homo_poly_0.01_loss=Homo_Lyapunov_N=300000_epoch=100_layer=1_width=10_lr=0.001_net=Homo.pt
+V =  ( - 0.632882 * (sqrt((pow(x1, 2) + pow(x2, 2))) * tanh((-1.8254127502441406 + ((-0.49741247296333313 * x1) / sqrt((pow(x1, 2) + pow(x2, 2)))) + ((1.5374912023544312 * x2) / sqrt((pow(x1, 2) + pow(x2, 2))))))) + 0.87434858083724976 * (sqrt((pow(x1, 2) + pow(x2, 2))) * tanh((-0.3298061192035675 + ((-1.152375340461731 * x1) / sqrt((pow(x1, 2) + pow(x2, 2)))) + ((1.4492644071578979 * x2) / sqrt((pow(x1, 2) + pow(x2, 2))))))) - 0.00091394747141748667 * (sqrt((pow(x1, 2) + pow(x2, 2))) * tanh((-0.002029964467510581 + ((-0.0019507624674588442 * x2) / sqrt((pow(x1, 2) + pow(x2, 2)))) + ((0.0082907853648066521 * x1) / sqrt((pow(x1, 2) + pow(x2, 2))))))) - 0.00086168322013691068 * (sqrt((pow(x1, 2) + pow(x2, 2))) * tanh((-0.0012547493679448962 + ((-0.0016633298946544528 * x2) / sqrt((pow(x1, 2) + pow(x2, 2)))) + ((0.008320310153067112 * x1) / sqrt((pow(x1, 2) + pow(x2, 2))))))) - 0.0058423946611583233 * (sqrt((pow(x1, 2) + pow(x2, 2))) * tanh((0.003477620892226696 + ((0.006432750727981329 * x1) / sqrt((pow(x1, 2) + pow(x2, 2)))) + ((0.01022312231361866 * x2) / sqrt((pow(x1, 2) + pow(x2, 2))))))) + 0.0014071447076275945 * (sqrt((pow(x1, 2) + pow(x2, 2))) * tanh((0.010584826581180096 + ((-0.0071361721493303776 * x1) / sqrt((pow(x1, 2) + pow(x2, 2)))) + ((0.004726167768239975 * x2) / sqrt((pow(x1, 2) + pow(x2, 2))))))) - 0.8585505485534668 * (sqrt((pow(x1, 2) + pow(x2, 2))) * tanh((0.39301669597625732 + ((-1.4786739349365234 * x1) / sqrt((pow(x1, 2) + pow(x2, 2)))) + ((1.2272930145263672 * x2) / sqrt((pow(x1, 2) + pow(x2, 2))))))) - 1.0349063873291016 * (sqrt((pow(x1, 2) + pow(x2, 2))) * tanh((0.54829156398773193 + ((-1.3786839246749878 * x2) / sqrt((pow(x1, 2) + pow(x2, 2)))) + ((-1.3583376407623291 * x1) / sqrt((pow(x1, 2) + pow(x2, 2))))))) + 1.144039511680603 * (sqrt((pow(x1, 2) + pow(x2, 2))) * tanh((1.086295485496521 + ((-1.8212862014770508 * x1) / sqrt((pow(x1, 2) + pow(x2, 2)))) + ((-0.070178411900997162 * x2) / sqrt((pow(x1, 2) + pow(x2, 2))))))) + 0.81191188097000122 * (sqrt((pow(x1, 2) + pow(x2, 2))) * tanh((1.1584964990615845 + ((-1.9350000619888306 * x2) / sqrt((pow(x1, 2) + pow(x2, 2)))) + ((-0.043439757078886032 * x1) / sqrt((pow(x1, 2) + pow(x2, 2))))))) + 0.5218813419342041 * sqrt((pow(x1, 2) + pow(x2, 2))))
+Global stability verified for homogeneous vector field!
+Time taken for verifying Lyapunov function of deg_5_homo_poly_0.01: 1.3148553371429443 seconds.

@@ -1,0 +1,23 @@
+Skipping solving Lyapunov equation: A is not Hurwitz.
+System dynamics: x' =  Matrix([[-0.0599910004049913*x1*(x1**4 + 2*x1**2*x2**2 - x2**4) - 1.99910006749798*x2*(-x1**4 + 2*x1**2*x2**2 + x2**4)], [1.99910006749798*x1*(x1**4 + 2*x1**2*x2**2 - x2**4) - 0.0599910004049913*x2*(-x1**4 + 2*x1**2*x2**2 + x2**4)]])
+Eigenvalues of linearization:  [0. 0.]
+The linearization is inconclusive for stability analysis.
+__________________________________________________
+Learning neural Lyapunov function:
+Training model...
+Epoch 1 completed. Average epoch loss: 0.00028832. Max epoch loss: 0.03128                                                              
+Epoch 2 completed. Average epoch loss: 8.3647e-05. Max epoch loss: 0.00015445                                                           
+Epoch 3 completed. Average epoch loss: 7.0329e-05. Max epoch loss: 0.00014172                                                           
+Epoch 4 completed. Average epoch loss: 6.375e-05. Max epoch loss: 0.00013235                                                            
+Epoch 5 completed. Average epoch loss: 5.8993e-05. Max epoch loss: 0.00014168                                                           
+Epoch 6 completed. Average epoch loss: 5.2854e-05. Max epoch loss: 0.00013705                                                           
+Epoch 7 completed. Average epoch loss: 3.2117e-05. Max epoch loss: 0.00011311                                                           
+Epoch 8 completed. Average epoch loss: 5.6046e-06. Max epoch loss: 4.2944e-05                                                           
+Epoch 9 completed. Average epoch loss: 1.1117e-06. Max epoch loss: 3.0622e-05                                                           
+Epoch 10 completed. Average epoch loss: 1.1777e-07. Max epoch loss: 6.6467e-05                                                          
+Epoch 11 completed. Average epoch loss: 4.1633e-22. Max epoch loss: 3.9031e-18                                                          
+Total training time: 176.77 seconds.
+Model trained: results/deg_5_homo_poly_0.03_loss=Homo_Lyapunov_N=300000_epoch=20_layer=1_width=10_lr=0.001_net=Homo.pt
+V =  ( - 0.443435 * (sqrt((pow(x1, 2) + pow(x2, 2))) * tanh((-1.0078052282333374 + ((-0.15100735425949097 * x1) / sqrt((pow(x1, 2) + pow(x2, 2)))) + ((1.3151290416717529 * x2) / sqrt((pow(x1, 2) + pow(x2, 2))))))) - 0.33551609516143799 * (sqrt((pow(x1, 2) + pow(x2, 2))) * tanh((-0.24269871413707733 + ((-1.5520000457763672 * x1) / sqrt((pow(x1, 2) + pow(x2, 2)))) + ((0.11721290647983551 * x2) / sqrt((pow(x1, 2) + pow(x2, 2))))))) + 0.38626104593276978 * (sqrt((pow(x1, 2) + pow(x2, 2))) * tanh((-0.13296684622764587 + ((-0.60091900825500488 * x1) / sqrt((pow(x1, 2) + pow(x2, 2)))) + ((0.49134373664855957 * x2) / sqrt((pow(x1, 2) + pow(x2, 2))))))) + 0.36437085270881653 * (sqrt((pow(x1, 2) + pow(x2, 2))) * tanh((-0.0019145089900121093 + ((-0.63499599695205688 * x1) / sqrt((pow(x1, 2) + pow(x2, 2)))) + ((0.75272971391677856 * x2) / sqrt((pow(x1, 2) + pow(x2, 2))))))) - 0.0020919069647789001 * (sqrt((pow(x1, 2) + pow(x2, 2))) * tanh((-0.0010492814471945167 + ((-0.00051868578884750605 * x2) / sqrt((pow(x1, 2) + pow(x2, 2)))) + ((0.0011720774928107858 * x1) / sqrt((pow(x1, 2) + pow(x2, 2))))))) - 0.007342139258980751 * (sqrt((pow(x1, 2) + pow(x2, 2))) * tanh((0.016536230221390724 + ((0.0076939063146710396 * x2) / sqrt((pow(x1, 2) + pow(x2, 2)))) + ((0.0087198689579963684 * x1) / sqrt((pow(x1, 2) + pow(x2, 2))))))) + 0.5128815770149231 * (sqrt((pow(x1, 2) + pow(x2, 2))) * tanh((0.53895378112792969 + ((-0.64648681879043579 * x1) / sqrt((pow(x1, 2) + pow(x2, 2)))) + ((-0.087518632411956787 * x2) / sqrt((pow(x1, 2) + pow(x2, 2))))))) - 0.31441521644592285 * (sqrt((pow(x1, 2) + pow(x2, 2))) * tanh((0.55243766307830811 + ((-1.3768539428710938 * x1) / sqrt((pow(x1, 2) + pow(x2, 2)))) + ((1.466373085975647 * x2) / sqrt((pow(x1, 2) + pow(x2, 2))))))) + 0.32381361722946167 * (sqrt((pow(x1, 2) + pow(x2, 2))) * tanh((0.58355724811553955 + ((-0.69197022914886475 * x1) / sqrt((pow(x1, 2) + pow(x2, 2)))) + ((-0.032174937427043915 * x2) / sqrt((pow(x1, 2) + pow(x2, 2))))))) - 0.25502464175224304 * (sqrt((pow(x1, 2) + pow(x2, 2))) * tanh((0.64295083284378052 + ((-1.6082504987716675 * x2) / sqrt((pow(x1, 2) + pow(x2, 2)))) + ((-1.5512861013412476 * x1) / sqrt((pow(x1, 2) + pow(x2, 2))))))) - 0.10866981744766235 * sqrt((pow(x1, 2) + pow(x2, 2))))
+Global stability verified for homogeneous vector field!
+Time taken for verifying Lyapunov function of deg_5_homo_poly_0.03: 0.7358462810516357 seconds.

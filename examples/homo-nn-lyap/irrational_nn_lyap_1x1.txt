@@ -1,0 +1,16 @@
+Skipping solving Lyapunov equation: A is not Hurwitz.
+System dynamics: x' =  Matrix([[sqrt(2*x1**6 + 8*x1**5*x2 + 22*x1**4*x2**2 + 18*x1**3*x2**3 + 26*x1**2*x2**4 - 16*x1*x2**5 + 13*x2**6)*(-2.66666666666667*x1**11 - 7.33333333333333*x1**10*x2 - 31.0*x1**9*x2**2 - 42.0*x1**8*x2**3 - 161.0*x1**7*x2**4 - 62.0*x1**6*x2**5 - 148.333333333333*x1**5*x2**6 + 396.333333333333*x1**4*x2**7 - 78.0*x1**3*x2**8 + 237.666666666667*x1**2*x2**9 - 590.666666666667*x1*x2**10 + 138.0*x2**11)/(2*x1**4 - 4*x1**3*x2 + 5*x1**2*x2**2 + 22*x1*x2**3 + 14*x2**4)], [sqrt(2*x1**6 + 8*x1**5*x2 + 22*x1**4*x2**2 + 18*x1**3*x2**3 + 26*x1**2*x2**4 - 16*x1*x2**5 + 13*x2**6)*(2.0*x1**11 + 5.33333333333333*x1**10*x2 + 24.6666666666667*x1**9*x2**2 + 41.0*x1**8*x2**3 + 60.0*x1**7*x2**4 - 89.0*x1**6*x2**5 - 361.0*x1**5*x2**6 - 576.333333333333*x1**4*x2**7 - 526.666666666667*x1**3*x2**8 + 229.0*x1**2*x2**9 + 16.6666666666667*x1*x2**10 - 64.6666666666667*x2**11)/(2*x1**4 - 4*x1**3*x2 + 5*x1**2*x2**2 + 22*x1*x2**3 + 14*x2**4)]])
+Eigenvalues of linearization:  [0. 0.]
+The linearization is inconclusive for stability analysis.
+__________________________________________________
+Learning neural Lyapunov function:
+Training model...
+Epoch 1 completed. Average epoch loss: 0. Max epoch loss: 0                                                                                              
+Total training time: 40.81 seconds.
+Model trained: results/irrational_nn_lyap_loss=Homo_Lyapunov_N=300000_epoch=5_layer=1_width=1_lr=0.001_net=Homo.pt
+V =  ( - 0.134454 * (sqrt((pow(x1, 2) + pow(x2, 2))) * tanh((0.067539036273956299 + ((-0.6203305721282959 * x2) / sqrt((pow(x1, 2) + pow(x2, 2)))) + ((0.50673216581344604 * x1) / sqrt((pow(x1, 2) + pow(x2, 2))))))) + 0.86318802833557129 * sqrt((pow(x1, 2) + pow(x2, 2))))
+Global stability verified for homogeneous vector field!
+Time taken for verifying Lyapunov function of irrational_nn_lyap: 0.047358036041259766 seconds.
+
+Plotting learned Lyapunov function and level sets...
+Elapsed time: 0.4933 seconds.
