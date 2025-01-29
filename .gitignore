@@ -1,0 +1,6 @@
+.DS_Store
+__pycache__/
+*.pyc
+lyznet.egg-info/
+results/
+wip/
