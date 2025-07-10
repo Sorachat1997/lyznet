@@ -29,3 +29,8 @@ You can run any example file directly using Python. For example, to run `example
 ```bash
 python example.py
 ```
+
+To reproduce the F-8 control-affine example introduced in this repository, run:
+```bash
+python examples/f8_control_affine.py
+```
